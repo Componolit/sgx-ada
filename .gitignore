@@ -1,5 +1,10 @@
-# Object file
-*.o
-
-# Ada Library Information
 *.ali
+*.o
+*.so
+.config_*
+Enclave/Ada/lib
+Enclave/Ada/obj
+Enclave/Ada/rts/obj
+Enclave_t.*
+Enclave_u.*
+app
