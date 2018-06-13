@@ -1,0 +1,3 @@
+[submodule "Enclave/Ada/rts"]
+	path = Enclave/Ada/rts
+	url = git@github.com:Componolit/ada-runtime.git
