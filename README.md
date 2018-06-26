@@ -1,6 +1,6 @@
-# Protecting Ada applications with Intel SGX
+# Protecting Ada applications with Intel SGX [![Build Status](https://travis-ci.org/Componolit/sgx-ada.svg?branch=master)](https://travis-ci.org/Componolit/sgx-ada)
 
-This sample code demonstrates how an Ada application can be executed inside of an SGX enclave. It is based on Intel's SGX SDK for Linux.
+This sample code demonstrates how an Ada application can be executed inside of an SGX enclave. It is based on [Intel's SGX SDK](https://software.intel.com/en-us/sgx-sdk) for Linux and a [downsized Ada runtime](https://github.com/Componolit/ada-runtime).
 
 ## Building/Executing
 
