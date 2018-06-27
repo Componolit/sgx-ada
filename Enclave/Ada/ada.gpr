@@ -6,8 +6,6 @@ library project Ada is
     for Library_Dir use "lib";
     for Library_Name use "ada";
     for Library_Kind use "static-pic";
-    for Library_Interface use ("ada_interface");
-    for Library_Standalone use "encapsulated";
     for Create_Missing_Dirs use "True";
 
     package Builder is

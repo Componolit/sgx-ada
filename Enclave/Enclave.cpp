@@ -22,6 +22,5 @@ void printf(const char *fmt, ...)
 }
 
 void ecall_adamain() {
-    ada_init();
     ada_main();
 }
