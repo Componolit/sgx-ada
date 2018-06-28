@@ -27,4 +27,4 @@ script:
     && source /opt/intel/sgxsdk/environment
     && cd /app
     && make SGX_MODE=SIM
-    && ./app"
+    && echo foo | ./app"

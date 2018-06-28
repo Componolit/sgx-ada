@@ -227,6 +227,12 @@ void ocall_print_string(const char *str)
     printf("%s", str);
 }
 
+void ocall_get_string(char *str, int len)
+{
+    size_t n = len;
+    getline(&str, &n, stdin);
+}
+
 
 /* Application entry */
 int SGX_CDECL main(int argc, char *argv[])
