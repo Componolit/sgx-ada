@@ -12,6 +12,7 @@ void __gnat_free(void *ptr) {
 
 void __gnat_unhandled_terminate() {
     puts("error: unhandled exception");
+    abort();
 }
 
 void *allocate_secondary_stack(void *thread, size_t size) {
@@ -26,9 +27,10 @@ void *get_thread() {
 }
 
 void raise_ada_exception(char *name, char *message) {
-    printf("%s: %s", name, message);
+    printf("%s: %s\n", name, message);
+    abort();
 }
 
-void warn_unimplemented_function(char *message) {
-    printf("warning: using unimplemented function '%s'\n", message);
+void warn_unimplemented_function(const char *message) {
+    (void) message;
 }
